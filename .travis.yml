@@ -1,0 +1,8 @@
+language: c
+script: true
+deploy:
+  provider: s3
+  access_key_id: AKIAJOZO7S4PXMCQGJQQ
+  secret_access_key:
+    secure: Y5m0ssOvLaBaBOCLaa/qeL9HrcOqEO/AhKIU3smMvCZjAJsct7ytVTddG0opj0+E1ZmhEc+a/ZvO5g6siIbA9nmlGLGqhZfEF39zdwuLxcY33LwsBcWwIxvu2nsvxvT/ZJ/8FV1n2bkEYDym9ei4ic75AzF15IWt8fu8EM0eOos=
+  bucket: www.shoulditestthis.com
