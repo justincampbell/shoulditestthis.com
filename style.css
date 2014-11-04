@@ -1,0 +1,12 @@
+body {
+  font: 24pt sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 1em;
+}
+
+@media (min-width: 641px) { body { font-size: 48pt } }
+@media (min-width: 961px) { body { font-size: 72pt } }
+@media (min-width: 1281px) { body { font-size: 96pt } }
