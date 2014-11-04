@@ -1,5 +1,5 @@
 language: c
-script: true
+script: cat index.html | grep "Yes."
 deploy:
   provider: s3
   access_key_id: AKIAJOZO7S4PXMCQGJQQ
