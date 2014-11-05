@@ -1,5 +1,5 @@
 language: c
-script: cat index.html | grep "Yes."
+script: make test
 deploy:
   provider: s3
   access_key_id: AKIAJOZO7S4PXMCQGJQQ
